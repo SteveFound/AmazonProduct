@@ -1,0 +1,24 @@
+{
+    "name": "dns/amazonproduct",
+    "description": "Generate URL to query the Amazon Product Advertising Service",
+    "license": "MIT",
+    "version": "dev-master",
+    "authors": [
+        {
+            "name": "Steve Found",
+            "email": "steve@dnsmedia.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "codeception/codeception": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dns\\AmazonProduct\\": "src/"
+        }
+    }
+}
